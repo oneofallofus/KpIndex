@@ -4,6 +4,7 @@ import QtQuick.Window 2.15
 Window {
     id: imageWindow
     property string imageSource
+    cache: false
     visible: true
     width: 480
     height: 480
